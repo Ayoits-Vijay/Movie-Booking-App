@@ -1,0 +1,48 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Movie Poster -->
+        <ImageView
+            android:id="@+id/imageMovieDetails"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop" />
+
+        <!-- Movie Title -->
+        <TextView
+            android:id="@+id/textMovieTitleDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="Movie Title"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Movie Description -->
+        <TextView
+            android:id="@+id/textMovieDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="Movie Description"
+            android:textSize="16sp" />
+
+        <!-- Book Ticket Button -->
+        <Button
+            android:id="@+id/bookTicketButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="78dp"
+            android:text="BOOK TICKET"
+            android:backgroundTint="@color/purple_dark"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

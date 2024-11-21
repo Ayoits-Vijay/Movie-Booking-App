@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/movie_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie Name"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/booking_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking Date"
+        android:textSize="14sp"
+        android:textColor="#757575" />
+
+    <TextView
+        android:id="@+id/seat_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seat Number"
+        android:textSize="14sp"
+        android:textColor="#757575" />
+</LinearLayout>

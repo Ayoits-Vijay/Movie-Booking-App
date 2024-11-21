@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TookMyShow</string>
+    <string name="it_all_starts_here">It All Starts Here</string>
+    <string name="search">search</string>
+    <string name="image_slider" />
+    <string name="movie_image">movie_image</string>
+    <string name="close_popup">close_popup</string>
+    <string name="live_event_promo">Live_Event_Promo</string>
+</resources>
